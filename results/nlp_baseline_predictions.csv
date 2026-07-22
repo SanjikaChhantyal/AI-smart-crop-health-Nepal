@@ -1,0 +1,19 @@
+question,actual_intent,predicted_intent,confidence,correct
+what is potato late blight?,late_blight,late_blight,0.6313591724156947,True
+रोग फैलिनबाट कसरी रोक्ने?,disease_management,prevention,0.3245563318466214,False
+what causes early blight?,early_blight,early_blight,0.9049167521885135,True
+can too much water cause potato disease?,irrigation,disease_management,0.2586722464380936,False
+आलुको वृद्धि राम्रो बनाउन के गर्ने?,fertilizer,disease_management,0.2996388843830001,False
+पात धेरै भिज्न नदिन के गर्ने?,irrigation,disease_management,0.3186096596689887,False
+how can i improve potato growth?,fertilizer,prevention,0.3454331410060927,False
+आलुको बिरुवा स्वस्थ कसरी राख्ने?,prevention,prevention,0.3601992235578252,True
+लेट ब्लाइट भनेको के हो?,late_blight,early_blight,0.3901027540300043,False
+should i remove infected potato leaves?,disease_management,disease_management,0.2966262799383526,True
+बाली चक्र किन आवश्यक छ?,prevention,prevention,0.334942940748588,True
+how often should potatoes be watered?,irrigation,prevention,0.3180269514772266,False
+अर्ली ब्लाइटका लक्षण के हुन्?,early_blight,late_blight,0.5455842248881616,False
+do potatoes need nitrogen fertilizer?,fertilizer,fertilizer,0.5365765386375596,True
+आलुमा कति पटक पानी हाल्ने?,irrigation,prevention,0.3285890369227821,False
+आलुको रोग कसरी नियन्त्रण गर्ने?,disease_management,prevention,0.3492602975930571,False
+आलुको पातमा गोलाकार दाग आएको छ,early_blight,early_blight,0.5914740502175332,True
+how much spacing should potato plants have?,prevention,prevention,0.3482072224562212,True
