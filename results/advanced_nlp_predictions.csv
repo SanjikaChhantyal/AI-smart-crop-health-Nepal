@@ -1,0 +1,49 @@
+question,language,actual_intent,predicted_intent,confidence,correct,accepted
+My older potato leaves have dry brown rings. What could this be?,English,early_blight,early_blight,0.658988949451614,True,True
+Which disease creates target-like circles on the lower leaves?,English,early_blight,early_blight,0.3427751371805273,True,False
+Does early blight normally begin on mature potato foliage?,English,early_blight,early_blight,0.9404474972363969,True,True
+How do the first visible signs of early blight look?,English,early_blight,early_blight,0.8592769157512045,True,True
+"पुरानो आलुको पातमा सुक्खा खैरो घेरा आएको छ, यो कुन रोग हो?",Nepali,early_blight,early_blight,0.9035042518136309,True,True
+तल्लो पातमा गोलो दाग बनाउने रोग कुन हो?,Nepali,early_blight,early_blight,0.3952980958519666,True,False
+अर्ली ब्लाइट प्रायः पुरानो पातबाट सुरु हुन्छ?,Nepali,early_blight,early_blight,0.960383332227679,True,True
+अर्ली ब्लाइट सुरु हुँदा पात कस्तो देखिन्छ?,Nepali,early_blight,early_blight,0.9226632658436229,True,True
+The leaf has wet-looking dark patches after several humid days.,English,late_blight,late_blight,0.5597386558971595,True,True
+Which potato disease can destroy plants quickly in cool weather?,English,late_blight,disease_management,0.44062015587974923,False,False
+Why is there pale growth underneath a dark infected leaf?,English,late_blight,late_blight,0.5469150863456245,True,False
+Can late blight move rapidly from one potato plant to another?,English,late_blight,late_blight,0.7625577251826305,True,True
+आर्द्र मौसमपछि पातमा कालो भिजेको दाग आएको छ।,Nepali,late_blight,late_blight,0.6587718958005976,True,True
+चिसो मौसममा आलु छिटो नष्ट गर्ने रोग कुन हो?,Nepali,late_blight,disease_management,0.37298144156580043,False,False
+कालो दाग लागेको पातको तल सेतो तह किन देखिन्छ?,Nepali,late_blight,late_blight,0.8778728990470407,True,True
+लेट ब्लाइट एउटा बिरुवाबाट अर्कोमा छिटो सर्छ?,Nepali,late_blight,early_blight,0.5235464990785391,False,False
+I found diseased leaves today. What immediate action should I take?,English,disease_management,disease_management,0.2560954295444976,True,False
+How should badly infected potato plants be removed?,English,disease_management,disease_management,0.7276415183836461,True,True
+Is it safe to leave infected foliage beside the field?,English,disease_management,disease_management,0.4742461789157496,True,False
+Who should I consult before applying a disease-control chemical?,English,disease_management,fertilizer,0.31455049864689055,False,False
+"आज रोग लागेको पात भेटियो, तुरुन्त के गर्नुपर्छ?",Nepali,disease_management,disease_management,0.7752235080991075,True,True
+धेरै संक्रमित आलुको बिरुवा कसरी हटाउने?,Nepali,disease_management,disease_management,0.8011564811907318,True,True
+संक्रमित पात खेतको छेउमा छोड्न मिल्छ?,Nepali,disease_management,late_blight,0.49500433680197675,False,False
+रोग नियन्त्रणको औषधि प्रयोग गर्नुअघि कसलाई सोध्ने?,Nepali,disease_management,disease_management,0.5894236470418984,True,True
+The soil is already wet. Should I water the potatoes again?,English,irrigation,irrigation,0.8310887297604496,True,True
+Is morning irrigation better than watering late in the evening?,English,irrigation,irrigation,0.502288496420762,True,False
+How can I water the roots while keeping the foliage dry?,English,irrigation,irrigation,0.7339130471061787,True,True
+What problems can continuous waterlogging cause in potatoes?,English,irrigation,irrigation,0.44033210451546306,True,False
+"माटो पहिले नै भिजेको छ, फेरि पानी हाल्ने?",Nepali,irrigation,irrigation,0.395279189398592,True,False
+बेलुकाभन्दा बिहान सिँचाइ गर्नु राम्रो हो?,Nepali,irrigation,disease_management,0.4320671833776964,False,False
+पात नभिजाई जरामा कसरी पानी पुर्‍याउने?,Nepali,irrigation,irrigation,0.6490595062519656,True,True
+लामो समय पानी जम्दा आलुमा के समस्या हुन्छ?,Nepali,irrigation,irrigation,0.8074030719205652,True,True
+Which nutrients should be selected after checking the soil?,English,fertilizer,irrigation,0.36940448618972593,False,False
+Can excessive nitrogen make potato plants unhealthy?,English,fertilizer,fertilizer,0.27531628987554185,True,False
+At which growth stage should potato fertilizer be provided?,English,fertilizer,fertilizer,0.6091772593431096,True,True
+Why should a farmer avoid guessing the fertilizer amount?,English,fertilizer,fertilizer,0.7562578163532319,True,True
+माटो जाँच गरेपछि कुन पोषक तत्व छनोट गर्ने?,Nepali,fertilizer,disease_management,0.3870001684888021,False,False
+धेरै नाइट्रोजनले आलुको बिरुवा बिगार्छ?,Nepali,fertilizer,late_blight,0.28571190729489476,False,False
+आलुको कुन अवस्थामा मल दिनु उपयुक्त हुन्छ?,Nepali,fertilizer,fertilizer,0.4702157209470079,True,False
+मलको मात्रा अनुमान गरेर मात्र किन हाल्नु हुँदैन?,Nepali,fertilizer,disease_management,0.36669245847982096,False,False
+What routine practices reduce the chance of potato disease?,English,prevention,disease_management,0.5613490535722807,False,True
+Should the same field be planted with potatoes every season?,English,prevention,irrigation,0.49708058159250595,False,False
+How does wider spacing help prevent leaf infections?,English,prevention,prevention,0.5005578827410774,True,False
+Why should farming tools be cleaned between fields?,English,prevention,prevention,0.7104762790939189,True,True
+कुन नियमित कामले आलुमा रोग लाग्ने सम्भावना घटाउँछ?,Nepali,prevention,prevention,0.37635544524643216,True,False
+हरेक सिजन एउटै खेतमा आलु लगाउनु ठीक हो?,Nepali,prevention,early_blight,0.24339438435178642,False,False
+बिरुवाबीच बढी दूरीले रोग रोक्न कसरी मद्दत गर्छ?,Nepali,prevention,prevention,0.3408951538484947,True,False
+एउटा खेतबाट अर्कोमा जाँदा औजार किन सफा गर्नुपर्छ?,Nepali,prevention,disease_management,0.39649158671259743,False,False
