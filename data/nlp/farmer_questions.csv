@@ -1,0 +1,73 @@
+question,intent,language
+What is potato early blight?,early_blight,English
+What causes early blight?,early_blight,English
+Why are there circular brown spots on potato leaves?,early_blight,English
+How can I recognise early blight?,early_blight,English
+What are the symptoms of early blight?,early_blight,English
+Does early blight affect older leaves first?,early_blight,English
+अर्ली ब्लाइट भनेको के हो?,early_blight,Nepali
+आलुको पातमा गोलो खैरो दाग किन देखिन्छ?,early_blight,Nepali
+अर्ली ब्लाइटका लक्षण के हुन्?,early_blight,Nepali
+पुरानो पातमा खैरो दाग देखिएको छ,early_blight,Nepali
+अर्ली ब्लाइट कसरी चिन्न सकिन्छ?,early_blight,Nepali
+आलुको पातमा गोलाकार दाग आएको छ,early_blight,Nepali
+What is potato late blight?,late_blight,English
+How does late blight spread?,late_blight,English
+What are the symptoms of late blight?,late_blight,English
+Why are potato leaves turning dark and wet?,late_blight,English
+Can cool and humid weather cause late blight?,late_blight,English
+Is late blight dangerous for potato crops?,late_blight,English
+लेट ब्लाइट भनेको के हो?,late_blight,Nepali
+लेट ब्लाइट कसरी फैलिन्छ?,late_blight,Nepali
+आलुको पात कालो र भिजेको जस्तो भएको छ,late_blight,Nepali
+लेट ब्लाइटका लक्षण के हुन्?,late_blight,Nepali
+चिसो मौसममा आलुको रोग किन फैलिन्छ?,late_blight,Nepali
+आलुको लेट ब्लाइट कति खतरनाक हुन्छ?,late_blight,Nepali
+What should I do after finding infected leaves?,disease_management,English
+How can I control potato leaf disease?,disease_management,English
+Should I remove infected potato leaves?,disease_management,English
+How can I stop the disease from spreading?,disease_management,English
+Can I use fungicide on potato plants?,disease_management,English
+How should infected plant material be disposed of?,disease_management,English
+रोग लागेको पातलाई के गर्ने?,disease_management,Nepali
+आलुको रोग कसरी नियन्त्रण गर्ने?,disease_management,Nepali
+संक्रमित पात हटाउनु पर्छ?,disease_management,Nepali
+रोग फैलिनबाट कसरी रोक्ने?,disease_management,Nepali
+ढुसीनाशक प्रयोग गर्न मिल्छ?,disease_management,Nepali
+रोग लागेको बिरुवा कसरी व्यवस्थापन गर्ने?,disease_management,Nepali
+How often should potatoes be watered?,irrigation,English
+Should I water potato leaves directly?,irrigation,English
+Can too much water cause potato disease?,irrigation,English
+When is the best time to irrigate potatoes?,irrigation,English
+How can I avoid leaf wetness?,irrigation,English
+Do potatoes need regular irrigation?,irrigation,English
+आलुमा कति पटक पानी हाल्ने?,irrigation,Nepali
+आलुको पातमा सिधै पानी हाल्नु हुन्छ?,irrigation,Nepali
+धेरै पानीले रोग लाग्छ?,irrigation,Nepali
+आलुमा पानी हाल्ने राम्रो समय कुन हो?,irrigation,Nepali
+पात धेरै भिज्न नदिन के गर्ने?,irrigation,Nepali
+आलुलाई नियमित सिँचाइ चाहिन्छ?,irrigation,Nepali
+What fertilizer is suitable for potatoes?,fertilizer,English
+When should fertilizer be applied to potatoes?,fertilizer,English
+Can too much fertilizer damage potato plants?,fertilizer,English
+Do potatoes need nitrogen fertilizer?,fertilizer,English
+Should I test the soil before applying fertilizer?,fertilizer,English
+How can I improve potato growth?,fertilizer,English
+आलुको लागि कुन मल राम्रो हुन्छ?,fertilizer,Nepali
+आलुमा मल कहिले हाल्ने?,fertilizer,Nepali
+धेरै मलले आलुलाई असर गर्छ?,fertilizer,Nepali
+आलुलाई नाइट्रोजन मल चाहिन्छ?,fertilizer,Nepali
+मल हाल्नुअघि माटो परीक्षण गर्नुपर्छ?,fertilizer,Nepali
+आलुको वृद्धि राम्रो बनाउन के गर्ने?,fertilizer,Nepali
+How can I keep potato plants healthy?,prevention,English
+How can potato disease be prevented?,prevention,English
+Why is crop rotation important?,prevention,English
+How much spacing should potato plants have?,prevention,English
+How often should potato plants be inspected?,prevention,English
+What field hygiene practices should I follow?,prevention,English
+आलुको बिरुवा स्वस्थ कसरी राख्ने?,prevention,Nepali
+आलुको रोग कसरी रोक्न सकिन्छ?,prevention,Nepali
+बाली चक्र किन आवश्यक छ?,prevention,Nepali
+आलुको बिरुवाबीच कति दूरी राख्ने?,prevention,Nepali
+आलुको बिरुवा कति पटक जाँच गर्ने?,prevention,Nepali
+खेत सफा राख्नु किन आवश्यक छ?,prevention,Nepali
