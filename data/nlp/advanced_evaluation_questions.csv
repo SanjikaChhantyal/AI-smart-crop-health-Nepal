@@ -1,0 +1,49 @@
+question,intent,language,source
+My older potato leaves have dry brown rings. What could this be?,early_blight,English,held_out_manual_evaluation
+Which disease creates target-like circles on the lower leaves?,early_blight,English,held_out_manual_evaluation
+Does early blight normally begin on mature potato foliage?,early_blight,English,held_out_manual_evaluation
+How do the first visible signs of early blight look?,early_blight,English,held_out_manual_evaluation
+"पुरानो आलुको पातमा सुक्खा खैरो घेरा आएको छ, यो कुन रोग हो?",early_blight,Nepali,held_out_manual_evaluation
+तल्लो पातमा गोलो दाग बनाउने रोग कुन हो?,early_blight,Nepali,held_out_manual_evaluation
+अर्ली ब्लाइट प्रायः पुरानो पातबाट सुरु हुन्छ?,early_blight,Nepali,held_out_manual_evaluation
+अर्ली ब्लाइट सुरु हुँदा पात कस्तो देखिन्छ?,early_blight,Nepali,held_out_manual_evaluation
+The leaf has wet-looking dark patches after several humid days.,late_blight,English,held_out_manual_evaluation
+Which potato disease can destroy plants quickly in cool weather?,late_blight,English,held_out_manual_evaluation
+Why is there pale growth underneath a dark infected leaf?,late_blight,English,held_out_manual_evaluation
+Can late blight move rapidly from one potato plant to another?,late_blight,English,held_out_manual_evaluation
+आर्द्र मौसमपछि पातमा कालो भिजेको दाग आएको छ।,late_blight,Nepali,held_out_manual_evaluation
+चिसो मौसममा आलु छिटो नष्ट गर्ने रोग कुन हो?,late_blight,Nepali,held_out_manual_evaluation
+कालो दाग लागेको पातको तल सेतो तह किन देखिन्छ?,late_blight,Nepali,held_out_manual_evaluation
+लेट ब्लाइट एउटा बिरुवाबाट अर्कोमा छिटो सर्छ?,late_blight,Nepali,held_out_manual_evaluation
+I found diseased leaves today. What immediate action should I take?,disease_management,English,held_out_manual_evaluation
+How should badly infected potato plants be removed?,disease_management,English,held_out_manual_evaluation
+Is it safe to leave infected foliage beside the field?,disease_management,English,held_out_manual_evaluation
+Who should I consult before applying a disease-control chemical?,disease_management,English,held_out_manual_evaluation
+"आज रोग लागेको पात भेटियो, तुरुन्त के गर्नुपर्छ?",disease_management,Nepali,held_out_manual_evaluation
+धेरै संक्रमित आलुको बिरुवा कसरी हटाउने?,disease_management,Nepali,held_out_manual_evaluation
+संक्रमित पात खेतको छेउमा छोड्न मिल्छ?,disease_management,Nepali,held_out_manual_evaluation
+रोग नियन्त्रणको औषधि प्रयोग गर्नुअघि कसलाई सोध्ने?,disease_management,Nepali,held_out_manual_evaluation
+The soil is already wet. Should I water the potatoes again?,irrigation,English,held_out_manual_evaluation
+Is morning irrigation better than watering late in the evening?,irrigation,English,held_out_manual_evaluation
+How can I water the roots while keeping the foliage dry?,irrigation,English,held_out_manual_evaluation
+What problems can continuous waterlogging cause in potatoes?,irrigation,English,held_out_manual_evaluation
+"माटो पहिले नै भिजेको छ, फेरि पानी हाल्ने?",irrigation,Nepali,held_out_manual_evaluation
+बेलुकाभन्दा बिहान सिँचाइ गर्नु राम्रो हो?,irrigation,Nepali,held_out_manual_evaluation
+पात नभिजाई जरामा कसरी पानी पुर्‍याउने?,irrigation,Nepali,held_out_manual_evaluation
+लामो समय पानी जम्दा आलुमा के समस्या हुन्छ?,irrigation,Nepali,held_out_manual_evaluation
+Which nutrients should be selected after checking the soil?,fertilizer,English,held_out_manual_evaluation
+Can excessive nitrogen make potato plants unhealthy?,fertilizer,English,held_out_manual_evaluation
+At which growth stage should potato fertilizer be provided?,fertilizer,English,held_out_manual_evaluation
+Why should a farmer avoid guessing the fertilizer amount?,fertilizer,English,held_out_manual_evaluation
+माटो जाँच गरेपछि कुन पोषक तत्व छनोट गर्ने?,fertilizer,Nepali,held_out_manual_evaluation
+धेरै नाइट्रोजनले आलुको बिरुवा बिगार्छ?,fertilizer,Nepali,held_out_manual_evaluation
+आलुको कुन अवस्थामा मल दिनु उपयुक्त हुन्छ?,fertilizer,Nepali,held_out_manual_evaluation
+मलको मात्रा अनुमान गरेर मात्र किन हाल्नु हुँदैन?,fertilizer,Nepali,held_out_manual_evaluation
+What routine practices reduce the chance of potato disease?,prevention,English,held_out_manual_evaluation
+Should the same field be planted with potatoes every season?,prevention,English,held_out_manual_evaluation
+How does wider spacing help prevent leaf infections?,prevention,English,held_out_manual_evaluation
+Why should farming tools be cleaned between fields?,prevention,English,held_out_manual_evaluation
+कुन नियमित कामले आलुमा रोग लाग्ने सम्भावना घटाउँछ?,prevention,Nepali,held_out_manual_evaluation
+हरेक सिजन एउटै खेतमा आलु लगाउनु ठीक हो?,prevention,Nepali,held_out_manual_evaluation
+बिरुवाबीच बढी दूरीले रोग रोक्न कसरी मद्दत गर्छ?,prevention,Nepali,held_out_manual_evaluation
+एउटा खेतबाट अर्कोमा जाँदा औजार किन सफा गर्नुपर्छ?,prevention,Nepali,held_out_manual_evaluation
