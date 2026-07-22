@@ -33,6 +33,7 @@ models/*.keras
 models/*.pt
 models/*.pth
 models/*.onnx
+models/*.joblib
 
 # Temporary files
 *.log

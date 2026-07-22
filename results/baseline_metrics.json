@@ -1,0 +1,34 @@
+{
+    "model_name": "Baseline HOG and SVM",
+    "feature_method": "HOG plus normalised HSV histograms",
+    "classifier": "SVC with RBF kernel",
+    "class_weight": "balanced",
+    "image_size": [
+        128,
+        128
+    ],
+    "training_images": 1506,
+    "validation_metrics": {
+        "split": "validation",
+        "number_of_images": 323,
+        "accuracy": 0.934984520123839,
+        "macro_precision": 0.9567398119122257,
+        "macro_recall": 0.8306280193236715,
+        "macro_f1": 0.8727558066541118,
+        "weighted_precision": 0.9397303881130078,
+        "weighted_recall": 0.934984520123839,
+        "weighted_f1": 0.9319439342790341
+    },
+    "test_metrics": {
+        "split": "test",
+        "number_of_images": 323,
+        "accuracy": 0.9380804953560371,
+        "macro_precision": 0.9586444333831093,
+        "macro_recall": 0.8205797101449276,
+        "macro_f1": 0.8639056626317773,
+        "weighted_precision": 0.9423838855182638,
+        "weighted_recall": 0.9380804953560371,
+        "weighted_f1": 0.9339685260018128
+    },
+    "total_runtime_seconds": 9.240272283554077
+}
