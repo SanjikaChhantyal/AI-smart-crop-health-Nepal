@@ -29,17 +29,59 @@ st.set_page_config(
 st.markdown(
     """
     <style>
+    /* Main sage-green background */
     .stApp,
     [data-testid="stAppViewContainer"] {
         background-color: #8FA58A;
     }
 
+    /* Transparent Streamlit header */
     [data-testid="stHeader"] {
         background-color: transparent;
     }
 
+    /* Sidebar background */
     [data-testid="stSidebar"] {
-        background-color: #667A61;
+        background-color: #768D71;
+    }
+
+    /* Make general application text black */
+    [data-testid="stAppViewContainer"] h1,
+    [data-testid="stAppViewContainer"] h2,
+    [data-testid="stAppViewContainer"] h3,
+    [data-testid="stAppViewContainer"] h4,
+    [data-testid="stAppViewContainer"] h5,
+    [data-testid="stAppViewContainer"] h6,
+    [data-testid="stAppViewContainer"] p,
+    [data-testid="stAppViewContainer"] label,
+    [data-testid="stAppViewContainer"] span,
+    [data-testid="stAppViewContainer"] li,
+    [data-testid="stAppViewContainer"] div {
+        color: #111111;
+    }
+
+    /* Make sidebar text black */
+    [data-testid="stSidebar"] * {
+        color: #111111 !important;
+    }
+
+    /* Keep text inside the file-upload box light */
+    [data-testid="stFileUploader"] section,
+    [data-testid="stFileUploader"] section *,
+    [data-testid="stFileUploader"] button,
+    [data-testid="stFileUploader"] button * {
+        color: #F5F5F5 !important;
+    }
+
+    /* Keep the file-size and format text visible */
+    [data-testid="stFileUploaderDropzoneInstructions"] span,
+    [data-testid="stFileUploaderDropzoneInstructions"] small {
+        color: #D7D7D7 !important;
+    }
+
+    /* Keep uploaded filename text visible */
+    [data-testid="stFileUploaderFile"] * {
+        color: #F5F5F5 !important;
     }
     </style>
     """,
