@@ -20,11 +20,31 @@ LOW_CONFIDENCE_THRESHOLD = 0.65
 
 
 st.set_page_config(
-    page_title="Potato Leaf Health Assistant",
+    page_title="Potato Leaf Health Assistant Nepal",
     page_icon="🥔",
     layout="wide",
 )
 
+# Custom application colours
+st.markdown(
+    """
+    <style>
+    .stApp,
+    [data-testid="stAppViewContainer"] {
+        background-color: #8FA58A;
+    }
+
+    [data-testid="stHeader"] {
+        background-color: transparent;
+    }
+
+    [data-testid="stSidebar"] {
+        background-color: #667A61;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 @st.cache_resource
 def get_prediction_resources():
@@ -73,10 +93,10 @@ def display_probability_table(
 def main() -> None:
     """Run the Streamlit application."""
 
-    st.title("🥔 Potato Leaf Health Assistant")
+    st.title("🥔 Potato Leaf Health Assistant Nepal")
 
     st.write(
-        "Upload a clear potato-leaf image. The system will classify "
+        "Upload a clear potato leaf image. The system will classify "
         "it as Early Blight, Late Blight or Healthy."
     )
 
@@ -93,7 +113,7 @@ def main() -> None:
     )
 
     uploaded_file = st.file_uploader(
-        "Upload a potato-leaf image",
+        "Upload a potato leaf image",
         type=["jpg", "jpeg", "png"],
         help=(
             "Use a clear image containing one visible potato leaf. "
