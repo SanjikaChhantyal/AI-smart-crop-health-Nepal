@@ -31,9 +31,49 @@ st.markdown(
     <style>
     /* Main sage-green background */
     .stApp,
-    [data-testid="stAppViewContainer"] {
-        background-color: #8FA58A;
+    [data-testid="stAppViewContainer"],
+     [data-testid="stMain"] {
+        background-color: #9CXAF88 !important;
     }
+
+        /* Main right-side background */
+.stApp,
+[data-testid="stAppViewContainer"],
+[data-testid="stMain"] {
+    background-color: #9CAF88 !important;
+}
+
+/* Left sidebar background */
+[data-testid="stSidebar"],
+[data-testid="stSidebarContent"],
+section[data-testid="stSidebar"] {
+    background-color: #355E3B !important;
+}
+
+/* Sidebar navigation text */
+[data-testid="stSidebar"] *,
+[data-testid="stSidebarContent"] * {
+    color: #111111 !important;
+}
+
+/* Selected sidebar page */
+[data-testid="stSidebarNav"] a[aria-current="page"] {
+    background-color: #C2D2B4 !important;
+    color: #111111 !important;
+    border-radius: 10px;
+}
+
+/* Unselected sidebar page */
+[data-testid="stSidebarNav"] a {
+    color: #111111 !important;
+}
+
+/* Sidebar collapse button */
+[data-testid="stSidebarCollapseButton"] button,
+[data-testid="collapsedControl"] {
+    background-color: #C2D2B4 !important;
+    color: #111111 !important;
+}
 
     /* Transparent Streamlit header */
     [data-testid="stHeader"] {
