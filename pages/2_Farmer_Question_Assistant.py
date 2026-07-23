@@ -20,10 +20,10 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-    /* Sage-green page background */
+    /* green page background */
     .stApp,
     [data-testid="stAppViewContainer"] {
-        background-color: #9CAF88;
+        background-color: #9CAF88 !important;
     }
 
     /* Transparent top header */
@@ -49,7 +49,7 @@ st.markdown(
 
     /* Text-area background and entered text */
     [data-testid="stTextArea"] textarea {
-        background-color: #E8EDE2 !important;
+        background-color: #9C9F84 !important;
         color: #111111 !important;
         border: 1px solid #596A52 !important;
     }
@@ -62,7 +62,7 @@ st.markdown(
 
     /* Warning message */
     [data-testid="stAlert"] {
-        background-color: #DCE5D4 !important;
+        background-color: #355E3B !important;
         color: #111111 !important;
     }
 
@@ -73,7 +73,7 @@ st.markdown(
 
     /* Information message */
     [data-testid="stNotification"] {
-        background-color: #DCE5D4 !important;
+        background-color: #355E3B !important;
     }
 
     [data-testid="stNotification"] p,
@@ -105,6 +105,36 @@ st.markdown(
         background-color: #E53E3E !important;
         color: #FFFFFF !important;
     }
+    /* Make the left sidebar sage green */
+[data-testid="stSidebar"],
+[data-testid="stSidebarContent"] {
+    background-color: #355E3B !important;
+}
+
+/* Make all sidebar text black */
+[data-testid="stSidebar"] *,
+[data-testid="stSidebarContent"] * {
+    color: #111111 !important;
+}
+
+/* Selected page in the sidebar */
+[data-testid="stSidebarNav"] a[aria-current="page"] {
+    background-color: #B8C8A7 !important;
+    color: #111111 !important;
+    border-radius: 8px;
+}
+
+/* Sidebar links when not selected */
+[data-testid="stSidebarNav"] a {
+    color: #111111 !important;
+}
+
+/* Sidebar collapse button area */
+[data-testid="stSidebarCollapseButton"] button,
+[data-testid="collapsedControl"] {
+    background-color: #9CAF88 !important;
+    color: #111111 !important;
+}
     </style>
     """,
     unsafe_allow_html=True,

@@ -1,5 +1,4 @@
 """Streamlit interface for the potato leaf disease classifier."""
-
 from __future__ import annotations
 
 from pathlib import Path
@@ -29,63 +28,27 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-    /* Main sage-green background */
+    /* Main right-side sage-green background */
     .stApp,
     [data-testid="stAppViewContainer"],
-     [data-testid="stMain"] {
-        background-color: #9CXAF88 !important;
+    [data-testid="stMain"] {
+        background-color: #9CAF88 !important;
     }
 
-        /* Main right-side background */
-.stApp,
-[data-testid="stAppViewContainer"],
-[data-testid="stMain"] {
-    background-color: #9CAF88 !important;
-}
+    /* Left pine-green sidebar */
+    [data-testid="stSidebar"],
+    [data-testid="stSidebarContent"],
+    section[data-testid="stSidebar"],
+    section[data-testid="stSidebar"] > div {
+        background-color: #355E3B !important;
+    }
 
-/* Left sidebar background */
-[data-testid="stSidebar"],
-[data-testid="stSidebarContent"],
-section[data-testid="stSidebar"] {
-    background-color: #355E3B !important;
-}
-
-/* Sidebar navigation text */
-[data-testid="stSidebar"] *,
-[data-testid="stSidebarContent"] * {
-    color: #111111 !important;
-}
-
-/* Selected sidebar page */
-[data-testid="stSidebarNav"] a[aria-current="page"] {
-    background-color: #C2D2B4 !important;
-    color: #111111 !important;
-    border-radius: 10px;
-}
-
-/* Unselected sidebar page */
-[data-testid="stSidebarNav"] a {
-    color: #111111 !important;
-}
-
-/* Sidebar collapse button */
-[data-testid="stSidebarCollapseButton"] button,
-[data-testid="collapsedControl"] {
-    background-color: #C2D2B4 !important;
-    color: #111111 !important;
-}
-
-    /* Transparent Streamlit header */
+    /* Transparent top header */
     [data-testid="stHeader"] {
-        background-color: transparent;
+        background-color: transparent !important;
     }
 
-    /* Sidebar background */
-    [data-testid="stSidebar"] {
-        background-color: #768D71;
-    }
-
-    /* Make general application text black */
+    /* General application text */
     [data-testid="stAppViewContainer"] h1,
     [data-testid="stAppViewContainer"] h2,
     [data-testid="stAppViewContainer"] h3,
@@ -95,33 +58,59 @@ section[data-testid="stSidebar"] {
     [data-testid="stAppViewContainer"] p,
     [data-testid="stAppViewContainer"] label,
     [data-testid="stAppViewContainer"] span,
-    [data-testid="stAppViewContainer"] li,
-    [data-testid="stAppViewContainer"] div {
-        color: #111111;
-    }
-
-    /* Make sidebar text black */
-    [data-testid="stSidebar"] * {
+    [data-testid="stAppViewContainer"] li {
         color: #111111 !important;
     }
 
-    /* Keep text inside the file-upload box light */
-    [data-testid="stFileUploader"] section,
+    /* Sidebar text */
+    [data-testid="stSidebar"] *,
+    [data-testid="stSidebarContent"] * {
+        color: #111111 !important;
+    }
+
+    /* Selected sidebar page */
+    [data-testid="stSidebarNav"] a[aria-current="page"] {
+        background-color: #C2D2B4 !important;
+        color: #111111 !important;
+        border-radius: 10px !important;
+    }
+
+    /* Unselected sidebar pages */
+    [data-testid="stSidebarNav"] a {
+        color: #111111 !important;
+    }
+
+    /* Sidebar collapse button */
+    [data-testid="stSidebarCollapseButton"] button,
+    [data-testid="collapsedControl"] {
+        background-color: #C2D2B4 !important;
+        color: #111111 !important;
+    }
+
+    /* Keep file uploader dark */
+    [data-testid="stFileUploader"] section {
+        background-color: #24252E !important;
+    }
+
+    /* Keep uploader text white */
     [data-testid="stFileUploader"] section *,
     [data-testid="stFileUploader"] button,
-    [data-testid="stFileUploader"] button * {
+    [data-testid="stFileUploader"] button *,
+    [data-testid="stFileUploaderFile"] * {
         color: #F5F5F5 !important;
     }
 
-    /* Keep the file-size and format text visible */
+    /* File information text */
     [data-testid="stFileUploaderDropzoneInstructions"] span,
     [data-testid="stFileUploaderDropzoneInstructions"] small {
         color: #D7D7D7 !important;
     }
 
-    /* Keep uploaded filename text visible */
-    [data-testid="stFileUploaderFile"] * {
-        color: #F5F5F5 !important;
+    /* Keep primary button text white */
+    .stButton > button[kind="primary"],
+    .stButton > button[kind="primary"] *,
+    .stButton > button[kind="primary"] p {
+        color: #FFFFFF !important;
     }
     </style>
     """,
